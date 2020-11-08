@@ -26,6 +26,6 @@ go to root folder and run below command
 ```
 docker-compose up
 ```
-#### Task 1
+#### View
 
 visit [http://localhost:5003/](http://localhost:5003/ "http://localhost:5003/") 
