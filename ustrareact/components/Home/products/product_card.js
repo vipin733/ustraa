@@ -8,7 +8,7 @@ const Index = ({product}) =>{
             
             <img className="pro-img" src={product.image_urls.x300} alt={product.name}/>
             <div className="right-content">
-                <div className="pro-title">{product.name}  {product.rating ? <span>{product.rating}*</span> : ''}</div> 
+                <div className="pro-title">{product.name}  {product.rating ? <span >({product.rating}*</span> : ''})</div> 
                 {product.weight > 0? <p>({product.weight} {product.weight_unit})</p> : ''}
                 <div className="price">
                     <span className="actual-price">₹ {product.final_price}</span>
